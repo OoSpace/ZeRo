@@ -1,0 +1,9 @@
+{
+  "name": "ZeRo",
+  "version": "0.0.1",
+  "dependencies": {
+    "amdefine": "^1.0.1",
+    "requirejs": "^2.3.2",
+    "text": "requirejs/text"
+  }
+}
