@@ -1,4 +1,3 @@
-
     var basic={
         name:"",
     }
