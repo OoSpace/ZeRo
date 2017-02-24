@@ -13,11 +13,13 @@ BMP.$addMethod=function (name,fn) {
     return this;
 }
 var bm=new baseModel();
-for(var key in stPrm){
+for(var i=0;i<stPrm.length;i++){
+    var key=stPrm[i];
+    console.log(key)
     bm.$addMethod(key,function (key) {
-        this["$set"+key.replace(key.substring(0).toUpperCase(),key.substring(0))]=function (key) {
-            this["$"+key]=key;
-            return this;
+        bm["$set"+key.replace(key.substring(0).toUpperCase(),key.substring(0))]=function (key) {
+            bm["$"+key]=key;
+            return bm;
         };
     })
 }
