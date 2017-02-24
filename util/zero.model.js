@@ -1,5 +1,6 @@
 var baseModel=function () {
-    this.$describle="";
+    this.$describle="basic model";
+    this.doName="baseModel";
     this.$params={};
     this.$url="";
     this.$type="get";
@@ -7,25 +8,26 @@ var baseModel=function () {
 
 }
 var BMP=baseModel.prototype;
-var stPrm=["params","describle","url","type"];
+var _setParams=["params","describle","url","type"];
 BMP.$addMethod=function (name,fn) {
-    this[name]=fn;
+    this["$set"+key.replace(key.substring(0,1),key.substring(0,1).toUpperCase())]=fn;
+    console.log("==$set"+key.replace(key.substring(0,1),key.substring(0,1).toUpperCase())+"==")
+    console.log(fn.toString())
     return this;
 }
-var bm=new baseModel();
-for(var i=0;i<stPrm.length;i++){
-    var key=stPrm[i];
-    console.log(key)
-    bm.$addMethod(key,function (key) {
-        bm["$set"+key.replace(key.substring(0).toUpperCase(),key.substring(0))]=function (key) {
-            bm["$"+key]=key;
-            return bm;
-        };
+var _BMP=new baseModel();
+_BMP.$describle="_BMP"
+for(var i=0;i<_setParams.length;i++){
+    _BMP.$addMethod(_name,function (_args){
+        _BMP.doName=_name;
+        _BMP["$"+_name]=_args;
+        console.log(_BMP["$"+_name]);
+        return _BMP;
     })
 }
-var pm={name:"test"};
-bm.$setParams(pm);
-console.log(bm.$params);
+var _param={name:"test"};
+_BMP.$setParams(_param);
+console.log(_BMP.$params);
 /*
 BMP.$setParams=function (params) {
     this.$params=params;
