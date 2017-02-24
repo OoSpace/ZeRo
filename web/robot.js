@@ -13,11 +13,15 @@ var Robot=function () {
         return this;
     }
     this.add=function (fucname,fucs) {
-        this[fucname]=function(){
-            fucs();
-        }
+        this[fucname]=fucs;
         return this;
     }
+    /*this.add=function (fucname,fucs) {
+        this[fucname]=function () {
+            fucs();
+        };
+        return this;
+    }*/
     this.remove=function (fucname) {
         this[fucname]=undefined;
     }
