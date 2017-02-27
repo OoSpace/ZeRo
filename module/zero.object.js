@@ -35,5 +35,5 @@
         this.video=new vedio();
         this.audio=new audio();
     }
-    exports.baseObj=new template()
+    //exports.baseObj=new template()
 
