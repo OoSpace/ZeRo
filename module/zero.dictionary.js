@@ -2,7 +2,7 @@
  * Created by oospace on 2016/10/18.
  */
 function Dictionary(){
-    this.data = new Array();
+    this.data = new Object();
 
     this.put = function(key,value){
         this.data[key] = value;
