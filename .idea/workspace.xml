@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f000363-f117-45c1-93e1-199ee14289fe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/zero.extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module/zero.promise.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/zero.dictionary.js" afterPath="$PROJECT_DIR$/module/zero.dictionary.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/gulpfile.js">
+      <file leaf-file-name="es6-promise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/dist/es6-promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2889">
-              <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
+            <state relative-caret-position="216">
+              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -36,41 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.engine.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/build.engine.js">
+      <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirejs.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/requirejs.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="378">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -86,28 +57,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zero.dictionary.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module/zero.dictionary.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="es6.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module/es6.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4482">
-              <caret line="166" column="13" lean-forward="false" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.js">
+      <file leaf-file-name="zero.extend.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/zero.extend.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -116,12 +67,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="274">
+              <caret line="353" column="2" lean-forward="true" selection-start-line="353" selection-start-column="2" selection-end-line="353" selection-end-column="2" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1053">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise/all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="race.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise/race.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2133">
+              <caret line="81" column="7" lean-forward="false" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reject.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise/reject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="-internal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/-internal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +162,7 @@
       <find>settings</find>
       <find>ignore</find>
       <find>PLUGIN_NAME</find>
+      <find>pro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,7 +198,6 @@
         <option value="$PROJECT_DIR$/util/zero.model.js" />
         <option value="$PROJECT_DIR$/module/zero.view.js" />
         <option value="$PROJECT_DIR$/module/test.html" />
-        <option value="$PROJECT_DIR$/module/zero.dom.js" />
         <option value="$PROJECT_DIR$/build/build.engine.js" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/start.js" />
@@ -198,6 +205,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build/package.json" />
         <option value="$PROJECT_DIR$/module/zero.dictionary.js" />
+        <option value="$PROJECT_DIR$/module/zero.promise.js" />
+        <option value="$PROJECT_DIR$/module/zero.dom.js" />
       </list>
     </option>
   </component>
@@ -217,8 +226,8 @@
     <handled-path value="$PROJECT_DIR$/build/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="448" />
-    <option name="y" value="167" />
+    <option name="x" value="620" />
+    <option name="y" value="200" />
     <option name="width" value="1490" />
     <option name="height" value="975" />
   </component>
@@ -237,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,8 +273,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeRo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZeRo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,10 +317,7 @@
       <recent name="D:\ZeRo\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.zero.diectionary.js">
-    <configuration default="false" name="inherit.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/module/zero.inherit.js" working-dir="$PROJECT_DIR$/module">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.zero.dom.js">
     <configuration default="false" name="zero.model.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/module/zero.model.js" working-dir="$PROJECT_DIR$/module">
       <method />
     </configuration>
@@ -308,6 +328,9 @@
       <method />
     </configuration>
     <configuration default="false" name="zero.dom.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="zero.dom.js" working-dir="$PROJECT_DIR$/module">
+      <method />
+    </configuration>
+    <configuration default="false" name="zero.promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="zero.promise.js" working-dir="$PROJECT_DIR$/module">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -370,19 +393,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.inherit.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.zero.model.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.zero.diectionary.js" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.zero.dom.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.zero.model.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.zero.diectionary.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.zero.dom.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.zero.promise.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.zero.diectionary.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.zero.dom.js" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.zero.model.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.inherit.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.zero.dom.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.zero.promise.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.zero.diectionary.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.zero.model.js" />
       </list>
     </recent_temporary>
   </component>
@@ -405,12 +428,20 @@
       <workItem from="1488334063249" duration="12719000" />
       <workItem from="1488417601154" duration="3001000" />
       <workItem from="1488444428596" duration="132000" />
-      <workItem from="1488444572870" duration="10000" />
+      <workItem from="1488444572870" duration="61000" />
+      <workItem from="1488445476774" duration="1980000" />
+      <workItem from="1488525220761" duration="641000" />
+      <workItem from="1488763661540" duration="34000" />
+      <workItem from="1488767116828" duration="1221000" />
+      <workItem from="1488850470585" duration="602000" />
+      <workItem from="1488853154681" duration="755000" />
+      <workItem from="1488856143063" duration="360000" />
+      <workItem from="1491909648904" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62646000" />
+    <option name="totallyTimeSpent" value="68329000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,21 +453,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="448" y="167" width="1490" height="975" extended-state="0" />
-    <editor active="false" />
+    <frame x="620" y="200" width="1490" height="975" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24242425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.347981" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.347981" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42980295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20783848" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32815534" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -454,83 +486,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/requirejs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/zero.object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/zero.object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/requirejs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/parse/db.helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module/zero.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/underscore.extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/underscore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38600">
-          <caret line="1544" column="14" lean-forward="false" selection-start-line="1544" selection-start-column="14" selection-end-line="1544" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4925">
-          <caret line="197" column="53" lean-forward="false" selection-start-line="197" selection-start-column="53" selection-end-line="197" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -647,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,33 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2889">
-          <caret line="114" column="51" lean-forward="false" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/build.engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/requirejs.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,21 +659,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/es6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4482">
+          <caret line="166" column="13" lean-forward="false" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/zero.dictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8397">
+          <caret line="311" column="3" lean-forward="true" selection-start-line="311" selection-start-column="3" selection-end-line="311" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/zero.promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.engine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/es6-promise.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/dist/es6-promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/define.js">
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise/race.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="2133">
+          <caret line="81" column="7" lean-forward="false" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/package.json">
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise/reject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/-internal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/node_modules/es6-promise/lib/es6-promise/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -760,18 +775,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/es6.js">
+    <entry file="file://$PROJECT_DIR$/module/zero.extend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4482">
-          <caret line="166" column="13" lean-forward="false" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module/zero.dictionary.js">
+    <entry file="file://$PROJECT_DIR$/build/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="1053">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/requirejs.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/define.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="353" column="2" lean-forward="true" selection-start-line="353" selection-start-column="2" selection-end-line="353" selection-end-column="2" />
           <folding />
         </state>
       </provider>
